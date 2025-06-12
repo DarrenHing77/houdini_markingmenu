@@ -19,7 +19,7 @@ The menu can be launched with the following Python snippet:
 ```python
 import houdini_markingmenu
 houdini_markingmenu.show_menu()
-```
+
 
 Assign this command to a hotkey inside a network editor. Holding **Ctrl** or
 **Shift** when triggering the hotkey will display the menu variant associated
@@ -37,6 +37,13 @@ houdini_markingmenu.show_menu()
 ```
 
 Replace ``/path/to/houdini_markingmenu`` with the location of this repository.
+=======
+```
+
+Assign this command to a hotkey inside a network editor. Holding **Ctrl** or
+**Shift** when triggering the hotkey will display the menu variant associated
+with that modifier.
+
 
 
 
