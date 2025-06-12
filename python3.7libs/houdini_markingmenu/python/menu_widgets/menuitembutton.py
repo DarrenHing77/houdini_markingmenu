@@ -58,7 +58,7 @@ class MenuItemButton(QtWidgets.QPushButton):
                 border-right: 1px solid rgba(0, 0, 0, 40%);
                 border-bottom: 1px solid rgba(0, 0, 0, 62%);
                 border-left: 1px solid rgba(0, 0, 0, 40%);
-                border-radius: 1px;
+                border-radius: 6px;
                 color: rgb(203, 203, 203);
                 padding-top: 3px;
                 padding-right: 15px;
@@ -78,7 +78,7 @@ class MenuItemButton(QtWidgets.QPushButton):
                 border-right: 1px solid rgba(0, 0, 0, 40%);
                 border-bottom: 1px solid rgba(0, 0, 0, 62%);
                 border-left: 1px solid rgba(0, 0, 0, 40%);
-                border-radius: 1px;
+                border-radius: 6px;
                 color: rgb(25, 25, 25);
                 padding-top: 3px;
                 padding-right: 15px;
