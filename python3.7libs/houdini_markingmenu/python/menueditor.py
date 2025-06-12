@@ -38,11 +38,8 @@ class MarkingMenuEditor(QtWidgets.QWidget):
         self.setStyleSheet('background-color: rgb(58,58,58);')
         self.setFixedSize(1150 * self.dpifactor, 850 * self.dpifactor)
 
-        self._rootpath = os.path.abspath(os.path.join(
-            hou.getenv('HOUDINI_MARKINGMENU'),
-            'python3.7libs',
-            'houdini_markingmenu')
-            )
+        self._rootpath = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), '..'))
 
         self._contexts = sorted([
             'SOP', 'OBJ', 'DOP', 'VOP', 'ROP',

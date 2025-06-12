@@ -59,11 +59,8 @@ class NEMarkingMenu(QtWidgets.QWidget):
     def __init__(self, editor):
         super(NEMarkingMenu, self).__init__()
         
-        self.rootpath = os.path.abspath(os.path.join(
-            hou.getenv('HOUDINI_MARKINGMENU'),
-            'python3.7libs',
-            'houdini_markingmenu')
-            )
+        self.rootpath = os.path.abspath(
+            os.path.join(os.path.dirname(__file__), '..'))
         
         # add python folder to path for nodegraphactivewire context
         sys.path.insert(0, os.path.join(self.rootpath, 'python'))
