@@ -23,7 +23,7 @@ class ManageCollectionsToolbar(QtWidgets.QWidget):
                 border-bottom: 1px solid rgba(0, 0, 0, 62%);
                 border-left: 1px solid rgba(0, 0, 0, 40%);
 
-                border-radius: 1px;
+                border-radius: 6px;
                 padding: 2px 10px 2px 10px;
             }
 
