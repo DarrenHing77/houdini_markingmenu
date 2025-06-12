@@ -802,7 +802,7 @@ class MarkingMenuEditor(QtWidgets.QWidget):
                         border-right: 1px solid rgba(0, 0, 0, 40%);
                         border-bottom: 1px solid rgba(0, 0, 0, 62%);
                         border-left: 1px solid rgba(0, 0, 0, 40%);
-                        border-radius: 1px;
+                        border-radius: 6px;
                         color: rgb(203, 203, 203);
                         padding-top: 3px;
                         padding-right: 15px;
@@ -860,7 +860,7 @@ class MarkingMenuEditor(QtWidgets.QWidget):
                         border-right: 1px solid rgba(0, 0, 0, 40%);
                         border-bottom: 1px solid rgba(0, 0, 0, 62%);
                         border-left: 1px solid rgba(0, 0, 0, 40%);
-                        border-radius: 1px;
+                        border-radius: 6px;
                         color: rgb(123, 123, 123);
                         padding-top: 3px;
                         padding-right: 15px;

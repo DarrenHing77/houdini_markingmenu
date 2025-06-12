@@ -104,7 +104,7 @@ class DetailsPane(QtWidgets.QWidget):
                 border-bottom: 1px solid rgba(0, 0, 0, 62%);
                 border-left: 1px solid rgba(0, 0, 0, 40%);
 
-                border-radius: 1px;
+                border-radius: 6px;
                 padding: 2px 10px 2px 10px;
             }
 
@@ -165,7 +165,7 @@ class DetailsPane(QtWidgets.QWidget):
             {
                 background-color: rgb(46, 46, 46);
                 border: 1px solid rgb(35, 35, 35);
-                border-radius: 1px;
+                border-radius: 6px;
                 color: rgb(210,210,210);
                 padding: 1px 1px;
                 selection-color: rgb(0, 0, 0);
